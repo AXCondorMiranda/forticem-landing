@@ -107,7 +107,7 @@
         </button>
 
     </header>
-    
+
     <section id="inicio" class="hero">
 
         <div class="hero-content">
@@ -199,17 +199,9 @@
 
                 <div class="hero-model">
 
-                    <model-viewer
-                        src="models/block-grass.glb"
-                        alt="Modelo 3D del Block Grass Tipo Michi de Forticem"
-                        camera-controls
-                        auto-rotate
-                        auto-rotate-delay="0"
-                        rotation-per-second="28deg"
-                        interaction-prompt="none"
-                        shadow-intensity="1"
-                        exposure="1.1"
-                        camera-orbit="45deg 55deg 7m"
+                    <model-viewer src="models/block-grass.glb" alt="Modelo 3D del Block Grass Tipo Michi de Forticem"
+                        camera-controls auto-rotate auto-rotate-delay="0" rotation-per-second="28deg"
+                        interaction-prompt="none" shadow-intensity="1" exposure="1.1" camera-orbit="45deg 55deg 7m"
                         field-of-view="30deg">
                     </model-viewer>
 
@@ -221,118 +213,399 @@
 
     </section>
 
-    <section id="beneficios" class="beneficios">
+    <section id="ficha" class="ficha">
 
         <div class="section-header">
 
             <span class="section-tag">
-                BENEFICIOS
+
+                FICHA TÉCNICA
+
             </span>
 
             <h2>
 
-                Diseñado para durar,
-                drenar y destacar.
+                Especificaciones del
+                Block Grass Tipo Michi
 
             </h2>
 
         </div>
 
-        <div class="beneficios-grid">
+        <div class="ficha-container">
 
-            <article class="beneficio-card">
+            <!-- MODELO 3D -->
 
-                <div class="beneficio-icon">
+            <div class="ficha-model">
 
-                    🏗️
+                <model-viewer src="models/block-grass.glb" camera-controls auto-rotate shadow-intensity="1">
+
+                </model-viewer>
+
+            </div>
+
+            <!-- DATOS -->
+
+            <div class="ficha-data">
+
+                <div class="spec-card">
+
+                    <span class="spec-value">
+
+                        35×35×9
+
+                    </span>
+
+                    <span class="spec-label">
+
+                        Dimensiones (cm)
+
+                    </span>
 
                 </div>
 
+                <div class="spec-card featured">
+
+                    <span class="spec-value">
+
+                        300+
+
+                    </span>
+
+                    <span class="spec-label">
+
+                        kg/cm² Resistencia
+
+                    </span>
+
+                </div>
+
+                <div class="spec-card">
+
+                    <span class="spec-value">
+
+                        Vehicular
+
+                    </span>
+
+                    <span class="spec-label">
+
+                        Tránsito Liviano
+
+                    </span>
+
+                </div>
+
+                <div class="spec-card">
+
+                    <span class="spec-value">
+
+                        Drenante
+
+                    </span>
+
+                    <span class="spec-label">
+
+                        Infiltración Natural
+
+                    </span>
+
+                </div>
+
+                <div class="spec-card">
+
+                    <span class="spec-value">
+
+                        Concreto
+
+                    </span>
+
+                    <span class="spec-label">
+
+                        Vibrado Industrial
+
+                    </span>
+
+                </div>
+
+                <div class="spec-card">
+
+                    <span class="spec-value">
+
+                        Gris
+
+                    </span>
+
+                    <span class="spec-label">
+
+                        Color Natural
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="galeria" class="galeria-story">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+
+                PROYECTOS
+
+            </span>
+
+            <h2>
+
+                Del diseño a la realidad.
+
+            </h2>
+
+        </div>
+
+        <!-- BLOQUE 1 -->
+
+        <div class="story-block">
+
+            <div class="story-media large">
+
+                <img src="img/galeria/proyecto-principal.jpg" alt="Proyecto terminado">
+
+            </div>
+
+            <div class="story-content">
+
+                <span class="story-number">
+
+                    01
+
+                </span>
+
                 <h3>
 
-                    Alta Resistencia
+                    Acabado moderno y funcional
 
                 </h3>
 
                 <p>
 
-                    Fabricado con concreto de
-                    alta calidad y resistencia
-                    superior a 300 kg/cm².
+                    El Block Grass Tipo Michi
+                    combina resistencia estructural
+                    con integración paisajística,
+                    permitiendo superficies
+                    transitables y drenantes.
 
                 </p>
+
+            </div>
+
+        </div>
+
+        <!-- BLOQUE 2 -->
+
+        <div class="story-block reverse">
+
+            <div class="story-content">
+
+                <span class="story-number">
+
+                    02
+
+                </span>
+
+                <h3>
+
+                    Instalación rápida
+
+                </h3>
+
+                <p>
+
+                    Su diseño modular facilita
+                    la colocación y reduce
+                    tiempos de ejecución.
+
+                </p>
+
+            </div>
+
+            <div class="story-media video">
+
+                <video muted loop playsinline preload="metadata">
+
+                    <source src="media/instalacion.mp4" type="video/mp4">
+
+                </video>
+
+            </div>
+
+        </div>
+
+        <!-- BLOQUE 3 -->
+
+        <div class="story-block">
+
+            <div class="story-media wide">
+
+                <video muted loop playsinline preload="metadata">
+
+                    <source src="media/transito.mp4" type="video/mp4">
+
+                </video>
+
+            </div>
+
+            <div class="story-content">
+
+                <span class="story-number">
+
+                    03
+
+                </span>
+
+                <h3>
+
+                    Diseñado para tránsito vehicular
+
+                </h3>
+
+                <p>
+
+                    Ideal para cocheras,
+                    estacionamientos y
+                    proyectos residenciales.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- BLOQUE 4 -->
+
+        <div class="before-after">
+
+            <div class="before">
+
+                <img src="img/galeria/antes.jpg" alt="Antes">
+
+                <span>
+
+                    Antes
+
+                </span>
+
+            </div>
+
+            <div class="after">
+
+                <img src="img/galeria/despues.jpg" alt="Después">
+
+                <span>
+
+                    Después
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="entregas" class="entregas">
+
+        <div class="section-header">
+
+            <span class="section-tag">
+
+                ENTREGAS
+
+            </span>
+
+            <h2>
+
+                Block Grass entregado
+                en distintos puntos de Lima.
+
+            </h2>
+
+        </div>
+
+        <div class="entregas-grid">
+
+            <article class="entrega-card">
+
+                <img src="img/entregas/carabayllo.jpeg" alt="Entrega de Block Grass en Carabayllo">
+
+                <div class="entrega-content">
+
+                    <h3>
+
+                        Entrega en Carabayllo
+
+                    </h3>
+
+                    <p>
+
+                        Suministro de Block Grass Tipo Michi
+                        para cochera residencial
+                        en Carabayllo.
+
+                    </p>
+
+                </div>
 
             </article>
 
-            <article class="beneficio-card">
+            <article class="entrega-card">
 
-                <div class="beneficio-icon">
+                <img src="img/entregas/ventanilla.jpeg" alt="Entrega de Block Grass en Ventanilla">
 
-                    💧
+                <div class="entrega-content">
+
+                    <h3>
+
+                        Entrega en Ventanilla
+
+                    </h3>
+
+                    <p>
+
+                        Proyecto de parque en el quinto sector
+                        con Block Grass drenante.
+
+                    </p>
 
                 </div>
-
-                <h3>
-
-                    Drenaje Natural
-
-                </h3>
-
-                <p>
-
-                    Permite la infiltración
-                    del agua reduciendo
-                    encharcamientos.
-
-                </p>
 
             </article>
 
-            <article class="beneficio-card">
+            <article class="entrega-card">
 
-                <div class="beneficio-icon">
+                <img src="img/entregas/pro.jpg" alt="Entrega de Block Grass en Pro">
 
-                    🌱
+                <div class="entrega-content">
 
-                </div>
+                    <h3>
 
-                <h3>
+                        Entrega en Pro
 
-                    Compatible con Áreas Verdes
+                    </h3>
 
-                </h3>
+                    <p>
 
-                <p>
+                        Abastecimiento para área
+                        vehicular y peatonal.
 
-                    Integra césped natural
-                    manteniendo una superficie
-                    resistente y estética.
-
-                </p>
-
-            </article>
-
-            <article class="beneficio-card">
-
-                <div class="beneficio-icon">
-
-                    ⚡
+                    </p>
 
                 </div>
-
-                <h3>
-
-                    Instalación Rápida
-
-                </h3>
-
-                <p>
-
-                    Sistema modular que permite
-                    acelerar la ejecución
-                    de proyectos.
-
-                </p>
 
             </article>
 
